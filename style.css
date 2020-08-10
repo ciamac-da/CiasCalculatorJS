@@ -37,3 +37,9 @@ body{
 .labelAlign {
       text-align: center;
 }
+.noobs{
+    text-align: center!important;
+    justify-content: center!important;
+    display: flex;
+    flex-direction: column;
+}
