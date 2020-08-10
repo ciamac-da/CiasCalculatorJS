@@ -14,8 +14,8 @@ function plusResult(){
       
       var p_1 = document.getElementById("plus1").value;
       var p_2 = document.getElementById("plus2").value;
-      p_1 = parseInt(p_1);
-      p_2 = parseInt(p_2);
+      p_1 = parseFloat(p_1);
+      p_2 = parseFloat(p_2);
       var plustotal = p_1 + p_2;
       plus.value = plustotal;
      
@@ -26,8 +26,8 @@ function minusResult(){
       
       var mi_1 = document.getElementById("minus1").value;
       var mi_2 = document.getElementById("minus2").value;
-      mi_1 = parseInt(mi_1);
-      mi_2 = parseInt(mi_2);
+      mi_1 = parseFloat(mi_1);
+      mi_2 = parseFloat(mi_2);
       var minustotal = mi_1 - mi_2;
       minus.value = minustotal;
      
@@ -38,8 +38,8 @@ function multiplyResult(){
       
       var mu_1 = document.getElementById("multiplication1").value;
       var mu_2 = document.getElementById("multiplication2").value;
-      mu_1 = parseInt(mu_1);
-      mu_2 = parseInt(mu_2);
+      mu_1 = parseFloat(mu_1);
+      mu_2 = parseFloat(mu_2);
       var multiplicationtotal = mu_1 * mu_2;
       multiply.value = multiplicationtotal;
      
@@ -51,8 +51,8 @@ function divideResult(){
       
       var d_1 = document.getElementById("divide1").value;
       var d_2 = document.getElementById("divide2").value;
-      d_1 = parseInt(d_1);
-      d_2 = parseInt(d_2);
+      d_1 = parseFloat(d_1);
+      d_2 = parseFloat(d_2);
       var dividedtotal = d_1 / d_2;
       divided.value = dividedtotal;
      
